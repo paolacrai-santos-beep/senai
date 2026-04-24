@@ -1,0 +1,7 @@
+litros = float(input("Quantidade de refresco (L): "))
+
+agua = litros * 0.8
+suco = litros * 0.2
+
+print(f"Água: {agua:.2f} L")
+print(f"Suco: {suco:.2f} L")
